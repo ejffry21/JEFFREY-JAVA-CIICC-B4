@@ -1,6 +1,6 @@
 public class ScoreGrade {
     public static void main(String[] args) {
-        int grade = 79;
+        int grade = 9;
         if (grade >=90){
             System.out.println("Your Grade is: A");   
         }else if (grade>=80 && grade <=89) {
@@ -16,3 +16,4 @@ public class ScoreGrade {
         }
     }
 }
+
