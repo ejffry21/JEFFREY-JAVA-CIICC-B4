@@ -1,6 +1,5 @@
-
+package TaskSheet1_1_2;
 class ArithmeticTask {
-
     public static void main (String[] args){
           
         int result = 1 + 2; // result is now 3
