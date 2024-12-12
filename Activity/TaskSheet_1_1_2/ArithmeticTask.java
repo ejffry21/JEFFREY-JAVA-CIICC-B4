@@ -1,4 +1,4 @@
-package TaskSheet1_1_2;
+package TaskSheet_1_1_2;
 class ArithmeticTask {
     public static void main (String[] args){
           
