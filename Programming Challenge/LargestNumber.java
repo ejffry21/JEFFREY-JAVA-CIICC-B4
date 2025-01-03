@@ -24,5 +24,6 @@ public class LargestNumber {
             }
             System.out.println("the largest is "+largest); 
         }
+        scanner.close();
     }
 }

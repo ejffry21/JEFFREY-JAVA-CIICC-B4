@@ -6,19 +6,17 @@ public class DateTask {
    private byte month;
    private short year;
 
-   // Constructors:
-
-   // The no-args constructor
+   
    public DateTask() {
    }
 
-   // Constructor that takes 3 arguments
+   
    public DateTask(int m, int d, int y) {
        setDate(m, d, y);
    }
 
-   // Methods
-   @Override
+  
+   
    public String toString() {
        return month + "-" + day + "-" + year;
    }
@@ -41,26 +39,24 @@ public class DateTask {
        }
    }
 
-   // Getter and Setter methods for day, month, and year
-
-   // Getter for day
+  
    public int getDay() {
        return day;
    }
 
-   // Setter for day
+   
    public void setDay(int day) {
        if (valid(day, month, year)) {
            this.day = (byte) day;
        }
    }
 
-   // Getter for month
+  
    public int getMonth() {
        return month;
    }
 
-   // Setter for month
+   
    public void setMonth(int month) {
        if (valid(day, month, year)) {
            this.month = (byte) month;
@@ -69,12 +65,12 @@ public class DateTask {
        }
    }
 
-   // Getter for year
+   
    public int getYear() {
        return year;
    }
 
-   // Setter for year
+   
    public void setYear(int year) {
        if (valid(day, month, year)) {
            this.year = (short) year;
@@ -83,7 +79,7 @@ public class DateTask {
        }
    }
 
-   // Private method to validate the date
+  
    private boolean valid(int day, int month, int year) {
        if (day > 31 || day < 1 || month > 12 || month < 1 || year < 1) {
            System.out.println("Attempting to create a non-valid date " + month + "/" + day + "/" + year);

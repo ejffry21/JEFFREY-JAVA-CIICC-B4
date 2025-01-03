@@ -6,9 +6,9 @@ public class PalindromeCheck {
 
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
-        // Use StringBuilder to reverse the string
+        
         String reversed = new StringBuilder(input).reverse().toString();
-        // Check if the original string is equal to the reversed string
+        
         if (input.equals(reversed)) {
             System.out.println("\"" + input + "\" is a palindrome!");
         } else {

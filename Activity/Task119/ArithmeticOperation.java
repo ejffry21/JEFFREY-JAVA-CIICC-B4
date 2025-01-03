@@ -13,7 +13,7 @@ public class ArithmeticOperation {
         return a*b;
     }
     public static double division(double a, double b){
-        if(b==0){
+        if(b==0 ){
             System.out.println("error division by zero");
             return 0;
         }
